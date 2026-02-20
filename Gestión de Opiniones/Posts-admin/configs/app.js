@@ -9,9 +9,9 @@ import { corsOptions } from './cors.configuration.js';
 import {helmetOptions } from './helmet.configuration.js';
 import { requestLimit } from './rateLimit.configuration.js';
 import { errorHandler} from '../middlewares/handle-errors.js';
-import fieldRoutes from '../src/fields/field.routes.js';
+import publicationRoutes from '../src/publications/publication.routes.js';
 
-const BASE_PATH = '/kinalSports/v1';
+const BASE_PATH = '/GDO/v1';
 
 const middlewares = (app) => {
     app.use(express.urlencoded({extended: false, limit: '10mb'}))
@@ -23,7 +23,7 @@ const middlewares = (app) => {
 };
 
 const routes = (app) => {
-    app.use(`${BASE_PATH}/fields`, fieldRoutes);
+    app.use(`${BASE_PATH}/publications`, publicationRoutes);
     app.get(`${BASE_PATH}/health`, (req, res) =>{
         res.status(200).json({
             status: 'healthy',
