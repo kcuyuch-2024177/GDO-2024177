@@ -1,0 +1,17 @@
+services:
+
+  postgres:
+    image: postgres:13
+    container_name: GDO_postgres
+    environment:
+      POSTGRES_USER: GDOKENET2024177
+      POSTGRES_PASSWORD: Kcuyuch!In6av
+      POSTGRES_DB: GDO_users
+    ports:
+      - "5436:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
