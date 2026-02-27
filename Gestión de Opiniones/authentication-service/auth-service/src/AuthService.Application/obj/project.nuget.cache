@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qwGvpmdgGTY=",
+  "dgSpecHash": "FSlOB8jNpuk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Informatica\\Documents\\Gestión de Opiniones\\authentication-service\\auth-service\\src\\AuthService.Application\\AuthService.Application.csproj",
+  "projectFilePath": "C:\\Users\\Informatica\\Desktop\\GDO-2024177\\Gestión de Opiniones\\authentication-service\\auth-service\\src\\AuthService.Application\\AuthService.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Informatica\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\Informatica\\.nuget\\packages\\cloudinarydotnet\\1.27.7\\cloudinarydotnet.1.27.7.nupkg.sha512",
