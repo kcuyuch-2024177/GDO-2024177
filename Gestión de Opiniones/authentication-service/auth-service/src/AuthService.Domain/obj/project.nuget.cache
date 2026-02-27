@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pqEe0eNtxRs=",
+  "dgSpecHash": "xoDmPt6tyfE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Informatica\\Documents\\Gestión de Opiniones\\authentication-service\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Informatica\\Desktop\\GDO-2024177\\Gestión de Opiniones\\authentication-service\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Informatica\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
